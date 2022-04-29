@@ -105,7 +105,7 @@ async def awake(event):
   CUTIEPII_BUTTON = [
       [
           Button.url("🚑 Support", f"https://t.me/{SUPPORT_CHAT}"),
-          Button.url("📢 Updates", "https://t.me/Black_Knights_Union")
+          Button.url("New Updates✅", "https://t.me/AerodynamicV1_UPDATE")
       ]
   ]
   await telethn.send_file(
@@ -167,7 +167,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/AerodynamicV1_Promotion"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
@@ -175,8 +175,8 @@ buttons = [
                              text="🚑 Support",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
-                             text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
+                             text="New Updates✅",
+                             url="https://t.me/AerodynamicV1_UPDATE")
                      ], 
     ]
 
@@ -306,7 +306,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_animation(
-            GROUP_START_IMG, caption= "<b>Yes, Darling I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
+            GROUP_START_IMG, caption= "<b>Yes, Buddy💚 I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -318,8 +318,8 @@ def start(update: Update, context: CallbackContext):
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/Black_Knights_Union",
+                            text="New Updates✅",
+                            url="https://telegram.dog/AerodynamicV1_UPDATE",
                         ),
                     ]
                 ]
